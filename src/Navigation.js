@@ -15,7 +15,7 @@ export const Navigation = () => {
               color: "(18, 9, 59, 0.89);",
             }}
           >
-            <Navbar.Brand href="/">nc</Navbar.Brand>
+            <Navbar.Brand href="#/">nc</Navbar.Brand>
           </motion.p>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
