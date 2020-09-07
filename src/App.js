@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { Navigation } from './Navigation'
 import Routes from './Routes'
 import Footer from './Footer';
