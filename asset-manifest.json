@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.15e5b9fd.chunk.js",
+    "main.js.map": "/static/js/main.15e5b9fd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.7a937237.chunk.js": "/static/js/2.7a937237.chunk.js",
+    "static/js/2.7a937237.chunk.js.map": "/static/js/2.7a937237.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.193d0f668380cb9ff1b6bece53d1a5aa.js": "/precache-manifest.193d0f668380cb9ff1b6bece53d1a5aa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7a937237.chunk.js.LICENSE.txt": "/static/js/2.7a937237.chunk.js.LICENSE.txt",
+    "static/media/Alaska1.jpg": "/static/media/Alaska1.876aeb4a.jpg",
+    "static/media/PeachyPlant1.png": "/static/media/PeachyPlant1.4b1ec2a0.png",
+    "static/media/mediamodifier_image.png": "/static/media/mediamodifier_image.05b2c3dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.7a937237.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.15e5b9fd.chunk.js"
+  ]
+}
