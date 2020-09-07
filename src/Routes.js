@@ -4,7 +4,6 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Extras from './Extras'
-import Example from './example'
 import { AnimatePresence } from "framer-motion"
 
 function Routes() {
@@ -16,8 +15,6 @@ function Routes() {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/extras" component={Extras} />
-        <Route path="/example" component={Example} />
-
       </Switch>
     </AnimatePresence>
   );

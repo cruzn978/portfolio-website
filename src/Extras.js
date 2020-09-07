@@ -4,9 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion"
 import Plx from "react-plx";
-import MusicTitle from "/MusicTitle"
-import PlantTitle from "/PlantTitle"
-import MatchaTitle from "/MatchaTitle"
+import MusicTitle from "./MusicTitle"
+import PlantTitle from "./PlantTitle"
+import MatchaTitle from "./MatchaTitle"
 
 const parallaxData = [
   {

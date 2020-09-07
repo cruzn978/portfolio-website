@@ -40,7 +40,7 @@ const parallaxData = [
 function Github() {
   return (
       <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
-        <a href="https://github.com/cruzn978" target="_blank">
+        <a href="https://github.com/cruzn978" target="_blank" rel="noopener noreferrer">
           <svg
             aria-hidden="true"
             focusable="false"

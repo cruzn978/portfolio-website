@@ -4,9 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion"
 import Plx from "react-plx";
-import GH from "/GraceHopper"
 import GraceHopper from "./GraceHopper";
-import Music from "/Music"
+import Music from "./Music"
 
 const parallaxData = [
   {

@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
 import Plx from "react-plx";
-import mediamodifier_image from "/img/mediamodifier_image.png";
-import PeachyPlants from "/img/PeachyPlant1.png";
-import HaicooText from "/HaicooText"
-import PeachyText from "/PeachyText"
+import mediamodifier_image from "./img/mediamodifier_image.png";
+import PeachyPlants from "./img/PeachyPlant1.png";
+import HaicooText from "./HaicooText"
+import PeachyText from "./PeachyText"
 
 const parallaxData = [
   {
@@ -66,7 +65,7 @@ const Projects = () => {
         <Row className="justify-content-md-center">
           <Col lg={8}>
             <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
-            <a href="https://haicoo.herokuapp.com/" target="_blank">
+            <a href="https://haicoo.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <motion.img
                 className="wide-img"
                 src={mediamodifier_image}
@@ -85,7 +84,7 @@ const Projects = () => {
         <Row className="justify-content-md-center">
           <Col lg={8}>
             <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
-            <a href="https://peachy-plants.herokuapp.com/" target="_blank">
+            <a href="https://peachy-plants.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <motion.img
                 className="wide-img"
                 src={PeachyPlants}

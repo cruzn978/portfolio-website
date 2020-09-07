@@ -1,6 +1,5 @@
 import React from "react";
 import Plx from "react-plx";
-import { motion } from "framer-motion";
 
 const parallaxData = [
   {

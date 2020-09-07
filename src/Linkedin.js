@@ -1,6 +1,5 @@
 import React from "react";
 import Plx from "react-plx";
-import { motion } from "framer-motion";
 
 const parallaxData = [
   {
@@ -51,7 +50,7 @@ const parallaxData = [
 function Linkedin() {
   return (
     <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
-      <a href="https://www.linkedin.com/in/cruzn978/" target="_blank">
+      <a href="https://www.linkedin.com/in/cruzn978/" target="_blank" rel="noopener noreferrer">
       <svg
         aria-hidden="true"
         focusable="false"

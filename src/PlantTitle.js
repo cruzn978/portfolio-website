@@ -1,7 +1,5 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { motion } from "framer-motion";
 import Plx from "react-plx";
 
 const parallaxData = [

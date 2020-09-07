@@ -1,7 +1,6 @@
 import React from "react";
 import Plx from "react-plx";
-import { motion } from "framer-motion";
-import musicPic from "/img/Alaska1.jpg"
+import musicPic from "./img/Alaska1.jpg"
 
 const parallaxData = [
   {
@@ -30,7 +29,7 @@ const parallaxData = [
 function Music() {
   return (
     <Plx className="MyAwesomeParallax" parallaxData={parallaxData}>
-      <img src={musicPic} alt="gig image"/>
+      <img src={musicPic} alt="gig"/>
     </Plx>
   );
 }
