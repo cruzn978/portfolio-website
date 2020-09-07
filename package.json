@@ -1,8 +1,8 @@
 {
+  "homepage": "https://cruzn978.github.io/portfolio-website",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cruzn978.github.io/portfolio-website",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
