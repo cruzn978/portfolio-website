@@ -27,7 +27,7 @@ export const Navigation = () => {
                   color: "(18, 9, 59, 0.89);",
                 }}
               >
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="#/about">About</Nav.Link>
               </motion.p>
               <motion.p
                 whileHover={{
@@ -35,7 +35,7 @@ export const Navigation = () => {
                   color: "(18, 9, 59, 0.89);",
                 }}
               >
-                <Nav.Link href="/projects">Projects</Nav.Link>
+                <Nav.Link href="#/projects">Projects</Nav.Link>
               </motion.p>
               <motion.p
                 whileHover={{
@@ -43,7 +43,7 @@ export const Navigation = () => {
                   color: "(18, 9, 59, 0.89);",
                 }}
               >
-                <Nav.Link href="/extras">Extras</Nav.Link>
+                <Nav.Link href="#/extras">Extras</Nav.Link>
               </motion.p>
             </Nav>
           </Navbar.Collapse>

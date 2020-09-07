@@ -11,10 +11,10 @@ function Routes() {
   return (
     <AnimatePresence exitBeforeEnter>
       <Switch location={location} key={location.key}>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/extras" component={Extras} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/extras" component={Extras} />
+        <Route exact path="/#" component={Home} />
       </Switch>
     </AnimatePresence>
   );
