@@ -4,10 +4,10 @@ import Plx from "react-plx";
 const parallaxData = [
   {
     start: "self",
-    duration: 400,
+    duration: 500,
     properties: [
       {
-        startValue: 50,
+        startValue: -100,
         endValue: 0,
         property: "translateX",
       },
@@ -17,8 +17,8 @@ const parallaxData = [
         property: "opacity",
       },
       {
-        startValue: -100,
-        endValue: -150,
+        startValue: 10,
+        endValue: 0,
         property: "translateY",
       },
     ],

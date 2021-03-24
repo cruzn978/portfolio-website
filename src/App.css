@@ -6,10 +6,9 @@
 } */
 
 #body {
-  background-image: linear-gradient(rgb(247, 235, 63), rgb(255, 255, 255));
+  background-image: linear-gradient(rgba(252, 241, 80, 0.858), rgb(255, 255, 255));
   /* background-color: #f7ea3f8f; */
   color: rgba(18, 9, 59, 0.89);
-  height: 100vh;
 }
 
 h1 {
@@ -57,7 +56,7 @@ p {
 }
 
 #root > div > header > nav > nav {
-  background-color: rgb(247, 235, 63) !important;
+  background-color: rgba(252, 241, 80, 0.858) !important;
   color: rgb(18, 9, 59);
   padding: 20px 45px 5px 50px;
 }
@@ -95,14 +94,10 @@ svg:hover {
   right: 140px;
 }
 #footer > div {
-  /* background-color: rgba(85, 107, 47, 0.219); */
   position: fixed;
   bottom: 30px;
   right: 80px;
 }
-/*
-#root > div > div > div.container > div:nth-child(7) > div.col-lg-4 {
-} */
 
 #root > div > div > div.container > div:nth-child(7) > div.col-lg-8 {
   order: 2;
@@ -136,8 +131,6 @@ img {
 
 }
 
-
-
 /* screens smaller than 500 */
 @media only screen and (max-width: 500px) {
   h2 {
@@ -156,6 +149,7 @@ img {
 
   img {
     width: 50%;
-    margin: 0px 0px 5px 20vw;
+    margin-left: 25%;
+    margin-right: 25%
   }
 }

@@ -5,15 +5,15 @@ import Plx from "react-plx";
 const parallaxData = [
   {
     start: "self",
-    duration: 350,
+    duration: 100,
     properties: [
       {
-        startValue: -300,
+        startValue: -15,
         endValue: 0,
         property: "translateY",
       },
       {
-        startValue: 200,
+        startValue: 15,
         endValue: 0,
         property: "translateX",
       },
