@@ -1,5 +1,5 @@
-#Nichole's portfolio site
+# Nichole's portfolio site
 
-This portfolio site was built with React, Bootstrap and Framer Motion.
+This portfolio site was built with React, Bootstrap and Framer Motion
 
-Check out the deployed version [here](https://cruzn978.github.io/portfolio-website/#/)
+Check out the deployed version [here](https://cruzn978.github.io/portfolio-website/#/).
